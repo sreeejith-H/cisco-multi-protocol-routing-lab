@@ -28,7 +28,30 @@ The configurations demonstrate:
 - Route redistribution
 - Static routing
 - Layer-3 switching
+- OSPF Verification
+
+Commands used:
+
+show ip ospf neighbor
+show ip route ospf
+show ip protocols
+EIGRP Verification
+
+Commands used:
+
+show ip eigrp neighbors
+show ip route eigrp
+show ip protocols
+Routing Table Verification
+show ip route
+Connectivity Testing
+
+End-to-end connectivity was tested using ICMP ping between different routing domains.
+
+Purpose
+
+The verification outputs demonstrate that routing adjacencies were established, routes were learned correctly, and route redistribution provided connectivity between the required networks.
 
 ## Configuration Files  images 
 
-Each device configuration is stored as a separate text file.
+
